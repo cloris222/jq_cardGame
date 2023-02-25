@@ -28,7 +28,7 @@
         width: 1024px;
         height: 650px;
         margin: auto;
-        margin-top: 150px;
+        margin-top: 30px;
         border-radius: 15px;
         border: 5px solid goldenrod;
       }
@@ -115,6 +115,17 @@
         color: #fff;
         transform: rotateY(180deg);
         box-shadow: -5px 5px 5px #333;
+      }
+
+      .reset_icon{
+        margin-top: 10px;
+      }
+
+      .reset_icon img{
+        width: 70%;
+        margin-top: 10px;
+        color: #fff;
+        object-fit: cover;
       }
 
       .timer {
@@ -222,7 +233,7 @@
           </p>
         </div>
         <input type="button" value="開始遊戲" class="start" />
-        <button class="reset"><i class="fa-solid fa-rotate-right"></i></button>
+        <button class="reset"><span class="reset_icon"><img src="./images/rotate-right.svg" ></span></button>
       </div>
       <div id="right">
         <div id="game"></div>
